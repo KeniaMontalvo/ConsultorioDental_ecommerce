@@ -3,9 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultorio Dental</title>
+
+    <link rel="shortcut icon" href="./assets/img/teeth.svg" type="image/x-icon">
+    <title>Mi Diente Feliz</title>
 </head>
 <body>
-    
+
+    <!--barra de navegacion-->
+    <nav class="navbar">
+        <div class="navbar__contenedor">
+            <div class="navbar__logo">
+                <img src="" alt="Logo Mi Diente Feliz" class="logo">
+            </div>
+            <div class="navbar__navegacion">
+                <div class="navbar__navegacion__enlaces">
+                    <ul class="navbar__navegacion__list">
+                        <li class="navbar__item"><a href="#inicio">Inicio</a></li>
+                        <li class="navbar__item"><a href="#nosotros">Nosotros</a></li>
+                        <li class="navbar__item"><a href="#servicios">Servicios</a></li>
+                        <li class="navbar__item"><a href="#equipo">Equipo</a></li>
+                        <li class="navbar__item"><a href="#ubicacion">Ubicación</a></li>
+                    </ul>
+                </div>
+                <div class="navbar__navegacion__btn">
+                    <a href="#reservacion"><button class="btn__principal">Reservar cita</button></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--header-->
+    <main class="main__contenedor" id="inicio">
+        <div class="seccion__principal">
+            <div class="main__informacion">
+                <h1 class="header__titulo">Excelencia en <span class="resaltado__azul">salud</span> dental</h1>
+                <p class="header__descripcion">
+                    En nuestro consultorio dental online, nos dedicamos a proporcionar servicios odontológicos de la más alta calidad. Desde limpiezas meticulosas hasta procedimientos especializados, nuestro compromiso es tu salud bucal óptima.
+                </p>
+                <a href="#reservacion">
+                    <button class="estandar__btn">Regístrate</button>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!--sobre nosotros-->
+    <section class="seccion__contenedor" id="nosotros">
+        <div class="seccion__sobre_nosotros">
+            <h2 class="titulo">Nosotros</h2>
+            <div class="sobre-nosotros__informacion">
+                <h4 class="subtitulo">Misión</h4>
+                <p class="descripcion">
+                    En nuestro consultorio dental, nos dedicamos a proporcionar un <span class="resaltado__azul">cuidado odontológico excepcional y personalizado</span>. Nuestra misión es crear sonrisas saludables y radiantes, promoviendo la <span class="resaltado__azul">confianza y el bienestar</span> de nuestros pacientes. A través de la excelencia clínica, la <span class="resaltado__azul">atención compasiva y la innovación continua</span>, aspiramos a ser líderes en la promoción de la salud bucal y la satisfacción del paciente.
+                </p>
+                <div class="sobre-nosotros__enlaces">
+                    <a href="" class="enlace__personalizado">Atención Personalizada <img src="" alt="" class="flecha"></a>
+                    <a href="" class="enlace__personalizado">Tecnología Avanzada <img src="" alt="" class="flecha"></a>
+                    <a href="" class="enlace__personalizado">Enfoque Preventivo <img src="" alt="" class="flecha"></a>
+                </div>
+            </div>
+            <div class="estandar__img">
+                <img src="" alt="Imagen de radiografía">
+            </div>
+        </div>
+    </section>
+
+    <!--servicios-->
+    <section class="seccion__contenedor" id="servicios">
+        <div class="seccion__servicios">
+            <h2 class="titulo">Servicios</h2>
+            <div class="cards__servicio">
+                <article class="card__ind__servicio">
+                    <img src="" alt="Imagen Ortodoncia">
+                    <p class="descripcion">
+                        Ortodoncia
+                    </p>
+                </article>
+                <article class="card__ind__servicio">
+                    <img src="" alt="Imagen Limpieza Dental">
+                    <p class="descripcion">
+                        Limpieza Dental
+                    </p>
+                </article>
+                <article class="card__ind__servicio">
+                    <img src="" alt="Imagen Radiografías">
+                    <p class="descripcion">
+                        Radiografías
+                    </p>
+                </article>
+                <article class="card__ind__servicio">
+                    <img src="" alt="Imagen Tratamiento de Caries">
+                    <p class="descripcion">
+                        Tratamiento de Caries
+                    </p>
+                </article>
+                <article class="card__ind__servicio">
+                    <img src="" alt="Imagen Blanqueamiento Dental">
+                    <p class="descripcion">
+                        Blanqueamiento Dental
+                    </p>
+                </article>
+                <article class="card__ind__servicio">
+                    <img src="" alt="Imagen Endodoncia">
+                    <p class="descripcion">
+                        Endodoncia
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--equipo-->
+    <section class="seccion__contenedor" id="equipo">
+        <div class="seccion__equipo">
+            <h2 class="titulo">Conoce al equipo</h2>
+            <div class="cards__equipo">
+                <article class="card__ind__equipo">
+                    <img src="" alt="Imagen Dentista">
+                    <p class="descripcion">
+                        Dra. Adriana Martínez
+                    </p>
+                </article>
+                <article class="card__ind__equipo">
+                    <img src="" alt="Imagen Dentista">
+                    <p class="descripcion">
+                        Dr. Roberto Sánchez
+                    </p>
+                </article>
+                <article class="card__ind__equipo">
+                    <img src="" alt="Imagen Dentista">
+                    <p class="descripcion">
+                        Dra. María García
+                    </p>
+                </article>
+                <article class="card__ind__equipo">
+                    <img src="" alt="Imagen Dentista">
+                    <p class="descripcion">
+                        Dra. Laura Rodríguez
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--reservacion/ubicacion-->
+    <section class="seccion__contenedor" id="ubicacion">
+        <div class="seccion__ubicacion" id="reservacion">
+            <div class="contenedor__info">
+                <h2 class="titulo">Reserva ahora</h2>
+                <div class="contenedor__formulario">
+                    <form action="" class="form" id="form">
+                        <input type="text" placeholder="Nombre" id="name">
+                        <p class="advertenciaNombre"></p>
+                        <input type="email" id="email">
+                        <p class="advertenciaEmail"></p>
+                        <input type="date" id="fecha">
+                        <p class="advertenciaFecha"></p>
+                        <input type="datetime" name="" id="hora">
+                        <p class="advertenciaHora"></p>
+                        <button type="submit" class="estandar__btn">Reservar cita</button>
+                    </form>
+                </div>
+            </div>
+            <div class="estandar__img">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10170.585481435925!2d-100.31597197205849!3d25.676432993127964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662958096193625%3A0x15a91caa6250784d!2sCl%C3%ADnica%20Dental%20M%C3%A9xico!5e0!3m2!1ses-419!2smx!4v1700156216718!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <section class="seccion__footer">
+        <div class="footer__contenedor">
+            <div class="footer__info">
+                <img src="" alt="Logo" class="logo">
+                <div class="footer__horarios">
+                    <p class="horario__parrafo"><span class="resaltado__blanco">Lunes - Viernes:</span> 10:00 AM - 6:00 PM</p>
+                    <p class="horario__parrafo"><span class="resaltado__blanco">Sábado:</span> 10:00 AM - 3:00 PM</p>
+                    <p class="horario__parrafo"><span class="resaltado__blanco">Domingo:</span> Cerrado</p>
+                </div>
+                <p class="copyright__parrafo">
+                    Copyright © 2023 Mi Diente Feliz. Todos los derechos reservados.
+                </p>
+            </div>
+            <div class="footer__navegacion">
+                <ul class="footer__nav__list">
+                    <li class="footer__nav__item"><a href="#inicio">Inicio</a></li>
+                    <li class="footer__nav__item"><a href="#nosotros">Nosotros</a></li>
+                    <li class="footer__nav__item"><a href="#servicios">Servicios</a></li>
+                    <li class="footer__nav__item"><a href="#equipo">Equipo</a></li>
+                    <li class="footer__nav__item"><a href="#ubicacion">Ubicación</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
