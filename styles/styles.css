@@ -15,11 +15,31 @@ a{
     color: black;
 }
 
+span.resaltado__azul{
+    color: #007BEC;
+}
+
+button.estandar__btn{
+    color: white;
+    background-color: #007BEC;
+    border: 1px solid #007BEC;
+    border-radius: 25px;
+    padding: 13px 30px;
+    width: 160px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+section.seccion__contenedor{
+    margin: 25px 40px;
+}
+
 /*NAVBAR*/
 
 nav.navbar{
     padding: 20px;
-    box-shadow: 5px 0px 9px gray;
+    box-shadow: 0px 5px 9px gray;
+    background-color: white;
 }
 
 div.navbar__contenedor{
@@ -39,6 +59,7 @@ div.navbar__navegacion{
 
 ul.navbar__navegacion__list{
     display: flex;
+    margin-right: 20px;
 }
 
 li.navbar__item{
@@ -52,6 +73,7 @@ button.btn__principal{
     border: 1px solid #007BEC;
     border-radius: 25px;
     padding: 13px 30px;
+    width: 160px;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
 }
@@ -59,4 +81,96 @@ button.btn__principal{
 button.btn__principal:hover{
     color: white;
     background-color: #007BEC;
+}
+
+h2.titulo{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+/*MAIN*/
+
+main.main__contenedor{
+    position: relative;
+}
+
+div.seccion__principal img{
+    width: 100%;
+    object-fit: cover;
+}
+
+div.main__informacion{
+    position: absolute;
+    top: 8%;
+    left: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 90px;
+}
+
+h1.header__titulo{
+    font-size: 90px;
+    text-align: end;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+p.header__descripcion{
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+/*NOSOTROS*/
+
+div.seccion__sobre_nosotros{
+    display: flex;
+
+}
+
+div.sobre-nosotros__Texto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+div.sobre-nosotros__enlaces{
+    display: flex;
+    flex-direction: column;
+}
+
+div.estandar__img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.estandar__img img{
+    width: 90%;
+    border-radius: 30px;
+}
+
+h4.subtitulo{
+    margin: 10px 0;
+}
+
+p.descripcion{
+    text-align: justify;
+}
+
+div.sobre-nosotros__enlaces{
+    margin-top: 20px;
+}
+
+a.enlace__personalizado{
+    background-color: #F5F5F5;
+    height: 45px;
+    margin: 7px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 20px;
+    font-weight: 500;
 }
