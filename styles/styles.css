@@ -174,3 +174,38 @@ a.enlace__personalizado{
     border-radius: 20px;
     font-weight: 500;
 }
+
+
+/*SERVICIOS*/
+
+div.cards__servicio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article.card__ind__servicio{
+    width: 250px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F5F5F5;
+    margin: 10px 20px;
+    border-radius: 15px;
+}
+
+article.card__ind__servicio img{
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+div.card__ind__img{
+    display: flex;
+}
+
+p.descripcion{
+    margin-top: 20px;
+}
