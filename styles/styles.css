@@ -175,6 +175,10 @@ a.enlace__personalizado{
     font-weight: 500;
 }
 
+a.enlace__personalizado:hover{
+    box-shadow: 2px 3px 8px gray;
+}
+
 
 /*SERVICIOS*/
 
@@ -192,9 +196,16 @@ article.card__ind__servicio{
     justify-content: flex-start;
     align-items: center;
     background-color: #F5F5F5;
-    margin: 10px 20px;
+    margin: 15px 20px;
     border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
 }
+
+article.card__ind__servicio:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 3px 8px gray;
+}
+
 
 article.card__ind__servicio img{
     width: 100%;
@@ -212,6 +223,7 @@ div.cards__equipo{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 15px;
 }
 
 article.card__ind__equipo{
@@ -224,10 +236,99 @@ article.card__ind__equipo{
     background-color: #F5F5F5;
     margin: 10px 20px;
     border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+article.card__ind__equipo:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 3px 8px gray;
 }
 
 article.card__ind__equipo img{
     width: 100%;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+}
+
+/*RESERVACIÓN/UBICACIÓN*/
+
+div.seccion__contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.seccion__ubicacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.contenedor__info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+div.estandar__info{
+    width: 50%;
+}
+
+div.estandar__img iframe{
+    width: 90%;
+    border-radius: 30px;
+}
+
+div.contenedor__formulario{
+    width: 90%;
+}
+
+form.form{
+    width: 100%;
+}
+
+form.form input.name, input.email{
+    width: 80%;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #F5F5F5;
+    padding-left: 18px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 1px 1px 3px gray;
+}
+
+div.input__horario{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 30px;
+}
+
+input.horario{
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #F5F5F5;
+    padding-left: 18px;
+    padding-right: 15px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 1px 1px 3px gray;
+    color: gray;
+}
+
+div.horario__fecha{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 20px;
+}
+
+div.horario__hora{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
 }

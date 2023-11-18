@@ -162,15 +162,21 @@
             <div class="contenedor__info">
                 <h2 class="titulo">Reserva ahora</h2>
                 <div class="contenedor__formulario">
-                    <form action="" class="form" id="form">
-                        <input type="text" placeholder="Nombre" id="name">
+                    <form class="form" id="form">
+                        <input type="text" placeholder="Nombre" id="name" class="name">
                         <p class="advertenciaNombre"></p>
-                        <input type="email" id="email">
+                        <input type="email" id="email" class="email" placeholder="Correo electrónico">
                         <p class="advertenciaEmail"></p>
-                        <input type="date" id="fecha">
-                        <p class="advertenciaFecha"></p>
-                        <input type="datetime" name="" id="hora">
-                        <p class="advertenciaHora"></p>
+                        <div class="input__horario">
+                            <div class="horario__fecha">
+                                <input type="date" id="fecha" class="horario">
+                                <p class="advertenciaFecha"></p>
+                            </div>
+                            <div class="horario__hora">
+                                <input type="datetime" id="hora" placeholder="Hora" class="horario">
+                                <p class="advertenciaHora"></p>
+                            </div>
+                        </div>
                         <button type="submit" class="estandar__btn">Reservar cita</button>
                     </form>
                 </div>
