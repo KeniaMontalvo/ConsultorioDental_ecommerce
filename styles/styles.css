@@ -374,7 +374,7 @@ span.resaltado__blanco{
 
 p.copyright__parrafo{
     font-size: 12px;
-    margin-bottom: 10px 0;
+    margin-bottom: 10px;
 }
 
 ul.footer__nav__list{
@@ -390,4 +390,139 @@ li.footer__nav__item{
 
 li.footer__nav__item a{
     color: white;
+}
+
+@media (max-width:830px){
+
+    div.navbar__contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.navbar__logo{
+        margin: 15px 0;
+    }
+
+    div.navbar__navegacion{
+        flex-direction: column;
+    }
+
+    ul.navbar__navegacion__list{
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    /*MAIN*/
+
+    div.main__informacion{
+        position: absolute;
+        top: 8%;
+        left: 41%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 90px;
+    }
+
+    h1.header__titulo{
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    p.header__descripcion{
+        font-size: 14px;
+    }
+
+    /*NOSOTROS*/
+
+    div.seccion__sobre_nosotros{
+        flex-direction: column;
+    }
+
+    div.sobre-nosotros__Texto{
+        width: 100%;
+    }
+
+    div.estandar__img{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    /*EQUIPO*/
+
+    article.card__ind__equipo{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    /*UBICACIÓN*/
+
+    div.seccion__ubicacion{
+        flex-direction: column;
+    }
+
+    div.contenedor__info{
+        width: 100%;
+    }
+
+    form.form input.name, input.email{
+        width: 96%;
+    }
+
+    div.input__horario{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    div.horario__fecha{
+        width: 50%;
+    }
+    
+    div.horario__hora{
+        width: 50%;
+    }
+
+    div.estandar__img iframe{
+        margin-top: 20px;
+    }
+
+    /*FOOTER*/
+
+    div.footer__contenedor{
+        flex-direction: column-reverse;
+    }
+
+    p.copyright__parrafo{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width:630px){
+
+    h2.titulo{
+        font-size: 40px;
+    }
+
+    /*MAIN*/
+
+    h1.header__titulo{
+        font-size: 20px;
+        line-height: 1.1;
+    }
+
+    p.header__descripcion{
+        font-size: 9px;
+    }
+
+    /*FOOTER*/
+
+    div.footer__info{
+        margin-bottom: 5px;
+    }
+
+    p.copyright__parrafo{
+        margin-top: 15px;
+    }
 }
