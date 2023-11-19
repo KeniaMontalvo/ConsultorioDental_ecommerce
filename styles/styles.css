@@ -31,7 +31,7 @@ button.estandar__btn{
 }
 
 section.seccion__contenedor{
-    margin: 25px 40px;
+    margin: 50px 40px;
 }
 
 /*NAVBAR*/
@@ -331,4 +331,63 @@ div.horario__hora{
     display: flex;
     flex-direction: column;
     width: 40%;
+}
+
+
+/*FOOTER*/
+
+section.seccion__footer{
+    margin-top: 30px;
+    background-color: #007BEC;
+}
+
+div.footer__contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+div.footer__info{
+    width: 50%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.footer__navegacion{
+    width: 50%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+div.footer__horarios{
+    margin: 25px 0;
+}
+
+span.resaltado__blanco{
+    font-weight: 500;
+}
+
+p.copyright__parrafo{
+    font-size: 12px;
+    margin-bottom: 10px 0;
+}
+
+ul.footer__nav__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+}
+
+li.footer__nav__item{
+    margin: 10px 0;
+}
+
+li.footer__nav__item a{
+    color: white;
 }
